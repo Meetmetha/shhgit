@@ -16,4 +16,4 @@ services:
     depends_on:
       - shhgit-www
     volumes:
-      - ./config.yaml:/app/config.yaml:ro
+      - ./config.yaml:/app/config.yaml
